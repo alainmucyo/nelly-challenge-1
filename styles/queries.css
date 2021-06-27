@@ -1,0 +1,56 @@
+/* 1800px */
+@media only screen and (min-width: 112.5em) {
+    html {
+        font-size: 75%;
+    }
+}
+
+/* 1200px */
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+    }
+    .container {
+        width: 85%;
+    }
+    .app-title {
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+}
+
+/* 900px */
+@media only screen and (max-width: 56.25em) {
+    html {
+        font-size: 50%;
+    }
+    .container {
+        width: 95%;
+    }
+    .user {
+        width: 50%;
+    }
+    .post-detail{
+        width: 100%;
+    }
+    .app-title {
+        font-size: 2rem;
+    }
+
+}
+/* 600px */
+@media only screen and (max-width: 37.5em) {
+    .user {
+        width: 100%;
+    }
+    .container {
+        padding: 2rem 1rem;
+    }
+    .user-details{
+        grid-gap: .2rem;
+    }
+    .user-content{
+        margin: .5rem .3rem;
+        padding: .4rem;
+    }
+}
